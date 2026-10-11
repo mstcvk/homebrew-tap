@@ -1,6 +1,6 @@
 cask "mc-download-manager" do
-  version "1.2.0"
-  sha256 "013de8819b183f8c06c88d7767f13066f94ea4477947657ca92c6e403e98f267"
+  version "1.3.0"
+  sha256 "da5c92884b53d8aacaebf5f2e29a96953f8bdc5acdbdc19b895da7cda7855a2a"
 
   url "https://github.com/mstcvk/mc-download-manager/releases/download/v#{version}/MC-Download-Manager-#{version}.dmg"
   name "MC Download Manager"
