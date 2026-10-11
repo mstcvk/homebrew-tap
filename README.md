@@ -1,9 +1,10 @@
 # mstcvk/homebrew-tap
 
-Homebrew tap for [MacRAR](https://github.com/mstcvk/MacRAR), a WinRAR-style archive manager for macOS.
+Homebrew casks for my macOS apps.
 
-```bash
-brew install --cask mstcvk/tap/macrar
-```
+| App | Install |
+|---|---|
+| [MC Download Manager](https://github.com/mstcvk/mc-download-manager): multi-connection download manager with Safari, Chrome and Brave integration and video downloads | `brew install --cask mstcvk/tap/mc-download-manager` |
+| [MacRAR](https://github.com/mstcvk/MacRAR): WinRAR-style archive manager | `brew install --cask mstcvk/tap/macrar` |
 
-Upgrade with `brew upgrade --cask macrar`. The cask downloads the Developer ID-signed, notarized DMG from the MacRAR GitHub release and installs `MacRAR.app` into `/Applications`.
+Upgrade with `brew upgrade --cask <name>`. Each cask downloads the Developer ID-signed, notarized DMG from the app's GitHub release and installs the app into `/Applications`.
