@@ -1,6 +1,6 @@
 cask "macrar" do
-  version "1.4.3"
-  sha256 "1c1d90d335b267c4007f027d046bf3aaacbc9b27e7bd269ea18c44ac93479a97"
+  version "1.4.4"
+  sha256 "b96e6d90e1f6f0f7760a1b9df629f011c6d0c9da73936dee13bdf49602639169"
 
   url "https://github.com/mstcvk/MacRAR/releases/download/v#{version}/MacRAR-#{version}.dmg"
   name "MacRAR"
